@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author CltControl
  */
-public class Estudiante {
+public class Estudiante extends PersonalAcademico {
 
     private List<Curso> cursosInscrito = new ArrayList();
     private List<Curso> cursosEnEsperaDeInscripcion = new ArrayList();
@@ -43,5 +43,4 @@ public class Estudiante {
         this.cursosEnEsperaDeInscripcion = cursosEnEsperaDeInscripcion;
     }
 
-    
 }
